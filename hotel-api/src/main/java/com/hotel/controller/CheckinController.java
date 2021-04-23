@@ -69,7 +69,7 @@ public class CheckinController {
 				BigDecimal valorDiaria = new BigDecimal(120.00);
 				BigDecimal valorAdicional = BigDecimal.ZERO;
 				if (chk.isAdicionalVeiculo()) {
-					valorAdicional = new BigDecimal(20.00);
+					valorAdicional = new BigDecimal(15.00);
 				}				
 				
 				if (DateTimeConstants.SUNDAY == day || DateTimeConstants.SATURDAY == day) {
